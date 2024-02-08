@@ -2,7 +2,7 @@
 
 Welcome to my React portfolio application! This project serves as an interactive portfolio website showcasing my skills, work experiences, and contact information.
 
-![portfolioProject](https://github.com/TG1989/Portfolio-Site/assets/115742987/9e5f6954-aed3-4ba0-8ec6-a75bae1c4e2e)
+![portfolioProject](https://github.com/TG1989/Portfolio-Site/assets/115742987/a048837b-5534-4416-8df8-2d8854b93b09)
 
 
 ## Features
