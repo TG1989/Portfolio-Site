@@ -1,0 +1,73 @@
+.experience-container {
+  margin: 3rem 0rem;
+  position: relative;
+}
+
+.experience-container h5 {
+  font-size: 1.5rem;
+  font-weight: 600;
+  margin-bottom: 3rem;
+}
+
+
+.experience-content .slick-slide>div {
+  padding: 0 .7rem;
+}
+
+.arrow-left,
+.arrow-right {
+  width: 2.2rem;
+  height: 2.2rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #4F0000;
+  border-radius: .65rem;
+  border: 1.5px solid #4F0000;
+  background: #080000;
+  position: absolute;
+  top: 55%;
+  z-index: 2;
+  cursor: pointer;
+}
+
+.arrow-left span,
+.arrow-right span {
+  font-size: 2rem;
+  font-weight: 500;
+  color: #4F0000;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+
+.arrow-left {
+  left: -2rem;
+}
+
+.arrow-right {
+  right: -2rem;
+}
+
+@media (max-width: 1025px){
+  .arrow-left {
+    left: 0rem;
+  }
+  .arrow-right {
+    right: 0rem;
+  }
+}
+
+@media (max-width: 768px){
+  .experience-container h5{
+    font-size: 1.3rem;
+    margin-bottom: 2rem;
+  }
+  .arrow-left {
+    left: -0.5rem;
+  }
+  .arrow-right {
+    right: -0.5rem;
+  }
+}

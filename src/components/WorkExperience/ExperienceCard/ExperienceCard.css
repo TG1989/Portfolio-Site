@@ -1,0 +1,55 @@
+.work-experience-card {
+  min-height: 20rem;
+  background: rgb(16, 4, 4);
+  border-radius: .65rem;
+  border: 1.5px solid rgb(79, 0, 0);
+  padding: 1.5rem;
+}
+
+.work-experience-card h6 {
+  font-size: 1.05rem;
+  margin-bottom: 0.8rem;
+}
+
+.work-duration {
+  display: inline-block;
+  font-size: .7rem;
+  font-weight: 400;
+  background: rgb(79, 0, 0);
+  border-radius: .3rem;
+  padding: .4rem .6rem;
+  margin-bottom: 1.3rem;
+}
+
+.work-experience-card ul li {
+  list-style: none;
+  font-size: .8rem;
+  font-weight: 400;
+  margin-bottom: .5rem;
+  position: relative;
+}
+
+.work-experience-card ul li::after {
+  content: " ";
+  width: .5rem;
+  height: .5rem;
+  border-radius: .5rem;
+  background-color: rgb(79, 0, 0);
+  position: absolute;
+  left: -1.3rem;
+  top: .35rem;
+}
+
+@media (max-width: 768px) {
+  .work-experience-card h6{
+    font-size: .95rem;
+  }
+  .work-experience-card ul li{
+    font-size: 0.75rem;
+  }
+
+  .work-experience-card {
+    min-height: 16rem;
+      }
+
+}
